@@ -108,19 +108,30 @@ img {
   padding: 32px 0;
   gap: 50px;
 }
+.contact-icon {
+  margin-right: 10px;
+}
 .list-link {
   color: var(--color-primary);
+  fill: var(--color-primary);
   text-decoration: none;
 }
 .list-link:hover {
   color: var(--color-accent);
+  fill: var(--color-accent);
 }
 .list-link:focus {
   color: var(--color-accent);
+  fill: var(--color-accent);
 }
 .hero {
+  max-width: 1600px;
   padding: 200px 0;
   background-color: var(--background-color-accent);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/hero-image.jpg);  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container-hero {
   text-align: center;
