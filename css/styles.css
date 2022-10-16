@@ -273,6 +273,14 @@ img {
   padding: 60px 0;
   background-color: var(--background-color-accent);
 }
+.footer-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.addres-wrapper {
+  margin-right: 70px;
+}
 .logo-invert {
   color: var(--color-invert);
 }
@@ -296,6 +304,32 @@ img {
 }
 .contact-link:focus {
   color: var(--color-accent);
+}
+.social-list-title {
+  margin-bottom: 20px;
+  text-align: left;
+  color: var(--color-invert);
+  font-weight: var(--font-weight-heading);
+  font-size: var(--font-size-primary);
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-link-footer {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: var(--color-invert);
+}
+.social-link-footer:hover {
+  background-color: var(--background-color-button);
 }
 .filter-list {
   display: flex;
