@@ -222,7 +222,10 @@ img {
   background-color: var(--background-color-secondary);
 }
 .memberteam-card {
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--background-color-primary);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .description-wrapper {
   margin: 30px 0 16px;
@@ -253,7 +256,19 @@ img {
   background-color: var(--background-color-button);
   fill: #ffffff;
 }
-
+.client-link-item {
+  display: block;
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+.client-link-item:hover {
+  border: 1px solid var(--background-color-button);
+  fill: var(--background-color-button);
+}
 .footer {
   padding: 60px 0;
   background-color: var(--background-color-accent);
