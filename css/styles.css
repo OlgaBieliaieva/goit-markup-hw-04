@@ -108,24 +108,25 @@ img {
   padding: 32px 0;
   gap: 50px;
 }
-.contact-icon {
-  margin-right: 10px;
-}
 .list-link {
+  display: flex;
+  align-items: center;
   color: var(--color-primary);
-  fill: var(--color-primary);
   text-decoration: none;
 }
 .list-link:hover {
-  color: var(--color-accent);
-  fill: var(--color-accent);
+  color: var(--color-accent);  
 }
 .list-link:focus {
-  color: var(--color-accent);
-  fill: var(--color-accent);
+  color: var(--color-accent);  
+}
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 .hero {
   max-width: 1600px;
+  margin: 0 auto;
   padding: 200px 0;
   background-color: var(--background-color-accent);
   background-image: linear-gradient(
@@ -188,16 +189,21 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
-.section-list {
-  display: flex;
-  flex-wrap: nowrap;
+.benefits-list {
+  display: flex;  
   gap: 30px;
 }
+.benefits-item {  
+  width: 270px;
+}
 .icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   background-color: var(--background-color-secondary);
   border-radius: 4px;
-  margin-bottom: 30px;
-  padding: 25px 100px;
+  margin-bottom: 30px;  
 }
 .section-title {
   margin-bottom: 50px;
@@ -217,6 +223,10 @@ img {
 }
 .benefits .item-text {
   line-height: 1.71;
+}
+.section-list {
+  display: flex;  
+  gap: 30px;
 }
 .our-team {
   background-color: var(--background-color-secondary);
